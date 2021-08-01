@@ -70,7 +70,7 @@ function calInit() {
             }
 
             yEle.children[1].innerText = y;
-            var mThis = mEle.getElementsByClassName("cal-month__now");
+            var mThis = mEle.getElementsByClassName("cal-month");
             mThis[0].classList.remove("cal-month__now");
             mEle.children[m].classList.add("cal-month__now");
         },
